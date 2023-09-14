@@ -1,0 +1,3 @@
+#!/bin/sh
+cd -P -- "$(dirname -- "$0")"
+PHX_SERVER=true exec ./ts_1989 start
